@@ -33,6 +33,8 @@ export async function translate({
     const data = await result.json();
 
     const traduction = data[0].translations[0].text;
+  
+    console.log(data)
 
     return traduction;
   } catch (error) {

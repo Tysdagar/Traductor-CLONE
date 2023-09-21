@@ -49,6 +49,7 @@ function translateReducer(
     return {
       ...state,
       loading,
+      textToTranslate : state.resultTranslate,
       resultTranslate: "",
       toLanguage: state.fromLanguage,
       fromLanguage: state.toLanguage,

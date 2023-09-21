@@ -35,6 +35,7 @@ function App() {
       fromLanguage,
       textToTranslate,
     });
+    console.log(textTranslated)
     setResultTranslate(textTranslated);
   }
 
